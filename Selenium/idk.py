@@ -22,10 +22,8 @@ try:
     )
     element.click()
     
+    driver.back()
 except:
-    input()
     driver.quit()
 
-
-#driver.quit()
 
